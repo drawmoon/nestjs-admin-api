@@ -1,8 +1,8 @@
 import { Injectable } from '@nestjs/common';
-import { IAppService } from './app.interface';
+import { IUserService } from './user.interface';
 
 @Injectable()
-export class AppService implements IAppService {
+export class UserService implements IUserService {
   getHello(): string {
     return 'Hello World!';
   }
