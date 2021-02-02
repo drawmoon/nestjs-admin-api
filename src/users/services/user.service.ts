@@ -14,7 +14,7 @@ export class UserService implements IUserService {
         email: '1340260725@qq.com',
         password: '123',
         a1: 'a1',
-      }
+      },
     ];
     return Mapper.mapArray(users, UserDTO, User);
   }
