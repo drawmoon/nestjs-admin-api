@@ -11,7 +11,4 @@ export class User {
   email: string;
 
   password: string;
-
-  @AutoMap()
-  a1: string;
 }

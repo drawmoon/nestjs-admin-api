@@ -11,7 +11,4 @@ export class UserDTO {
   email: string;
 
   password: string;
-
-  @AutoMap()
-  a2: string;
 }
